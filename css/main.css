@@ -1,0 +1,17 @@
+/*variables*/
+/*anidaciones*/
+body {
+  background-color: black;
+  color: white; }
+
+footer .redes {
+  color: white;
+  text-decoration: none;
+  background-color: black;
+  display: flex;
+  display: inline-block;
+  margin: 15px;
+  padding: 5px;
+  border: solid blanchedalmond;
+  border-radius: 1em / 2em;
+  justify-content: center; }
