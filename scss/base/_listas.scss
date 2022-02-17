@@ -1,0 +1,8 @@
+$colores:
+white,
+black;
+
+body{
+    color: 
+    nth($colores: 1);
+}

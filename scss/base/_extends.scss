@@ -1,0 +1,14 @@
+/* extends */
+
+%botones {
+    padding: 20px;
+    border: 1px solid white;
+    border-radius: 4px;
+}
+
+footer{
+    width: 300px;
+    background-color: black;
+    @extend %botones
+
+}

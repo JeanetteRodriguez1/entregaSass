@@ -1,23 +1,6 @@
-
-
-/*anidaciones*/
-body{
-    background-color: $color-principal;
-    color: white;
-}
-
-footer{
-    .redes{
-        color: rgb(255, 255, 255);
-        text-decoration: none;
-        background-color: $color-principal ;
-        display: flex;
-        display: inline-block;
-        margin: 15px;
-        padding: 5px;
-        border: solid blanchedalmond; 
-        border-radius: 1em / 2em ;
-        justify-content: center 
-    }
-}
-
+@import "base/variables";
+@import "components/body";
+@import "base/operaciones.scss";
+@import "base/listas";
+@import "base/mapas";
+@import "base/extends";
